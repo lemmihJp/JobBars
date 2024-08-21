@@ -28,7 +28,7 @@ namespace JobBars.Jobs {
             }),
             new GaugeProcsConfig(UiHelper.Localize(BuffIds.AtonementReady), GaugeVisualType.Diamond, new GaugeProcProps{
                 Procs = [
-                    new ProcConfig(UiHelper.Localize(BuffIds.AtonementReady), BuffIds.VerfireReady, ColorConstants.LightBlue)
+                    new ProcConfig(UiHelper.Localize(BuffIds.AtonementReady), BuffIds.AtonementReady, ColorConstants.LightBlue)
                 ]
             }),
             new GaugeGCDConfig(UiHelper.Localize(BuffIds.FightOrFlight), GaugeVisualType.Bar, new GaugeSubGCDProps {
