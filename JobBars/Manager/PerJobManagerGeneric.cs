@@ -15,29 +15,29 @@ namespace JobBars.Data {
         private void Init() {
             JobToValue.Add( JobIds.OTHER, GetOTHER() );
 
-            JobToValue.Add( JobIds.GNB, GetGNB() );
             JobToValue.Add( JobIds.PLD, GetPLD() );
             JobToValue.Add( JobIds.WAR, GetWAR() );
             JobToValue.Add( JobIds.DRK, GetDRK() );
+            JobToValue.Add( JobIds.GNB, GetGNB() );
 
-            JobToValue.Add( JobIds.AST, GetAST() );
-            JobToValue.Add( JobIds.SCH, GetSCH() );
             JobToValue.Add( JobIds.WHM, GetWHM() );
+            JobToValue.Add( JobIds.SCH, GetSCH() );
+            JobToValue.Add( JobIds.AST, GetAST() );
             JobToValue.Add( JobIds.SGE, GetSGE() );
+
+            JobToValue.Add( JobIds.MNK, GetMNK() );
+            JobToValue.Add( JobIds.DRG, GetDRG() );
+            JobToValue.Add( JobIds.NIN, GetNIN() );
+            JobToValue.Add( JobIds.SAM, GetSAM() );
+            JobToValue.Add( JobIds.RPR, GetRPR() );
+            JobToValue.Add( JobIds.VPR, GetVPR() );
 
             JobToValue.Add( JobIds.BRD, GetBRD() );
             JobToValue.Add( JobIds.MCH, GetMCH() );
             JobToValue.Add( JobIds.DNC, GetDNC() );
 
-            JobToValue.Add( JobIds.DRG, GetDRG() );
-            JobToValue.Add( JobIds.SAM, GetSAM() );
-            JobToValue.Add( JobIds.NIN, GetNIN() );
-            JobToValue.Add( JobIds.VPR, GetVPR() );
-            JobToValue.Add( JobIds.MNK, GetMNK() );
-            JobToValue.Add( JobIds.RPR, GetRPR() );
-
-            JobToValue.Add( JobIds.SMN, GetSMN() );
             JobToValue.Add( JobIds.BLM, GetBLM() );
+            JobToValue.Add( JobIds.SMN, GetSMN() );
             JobToValue.Add( JobIds.RDM, GetRDM() );
             JobToValue.Add( JobIds.PCT, GetPCT() );
             JobToValue.Add( JobIds.BLU, GetBLU() );

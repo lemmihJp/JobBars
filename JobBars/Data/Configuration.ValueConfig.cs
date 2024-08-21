@@ -39,7 +39,7 @@ namespace JobBars.Data {
 
         public override bool Draw( string id, string name, Vector2 defaultValue, out Vector2 value ) {
             value = Get( name, defaultValue );
-            if( ImGui.InputFloat2( id, ref value ) ) {
+            if( ImGui.DragFloat2( id, ref value ) ) {
                 Set( name, value );
                 return true;
             }
